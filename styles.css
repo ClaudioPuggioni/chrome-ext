@@ -1,0 +1,21 @@
+#container {
+  height: 100%;
+  width: 100%;
+  min-height: 500px;
+  min-width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header,
+#footer {
+  color: rgb(64, 133, 224);
+  font-size: 50px;
+  font-weight: 600;
+}
+
+#user {
+  color: rgb(19, 75, 148) !important;
+}
